@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-body p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.ad-banner {
+    background-color: #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #000;
+    border: 1px solid #bbb;
+}
+
+.ad-banner p {
+    margin: 0;
+}
+
+/* Different positions of ads */
+.ad-top {
+    margin-bottom: 20px;
+}
+
+.ad-middle {
+    margin: 20px 0;
+}
+
+.ad-bottom {
+    margin-top: 40px;
+}
